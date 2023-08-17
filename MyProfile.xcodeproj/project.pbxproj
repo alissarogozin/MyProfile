@@ -14,6 +14,7 @@
 		BDCB5C302A8E8C7000F75338 /* MyProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCB5C2F2A8E8C7000F75338 /* MyProfileTests.swift */; };
 		BDCB5C3A2A8E8C7000F75338 /* MyProfileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCB5C392A8E8C7000F75338 /* MyProfileUITests.swift */; };
 		BDCB5C3C2A8E8C7000F75338 /* MyProfileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCB5C3B2A8E8C7000F75338 /* MyProfileUITestsLaunchTests.swift */; };
+		BDCB5C522A8E95F200F75338 /* Josefin_Sans in Resources */ = {isa = PBXBuildFile; fileRef = BDCB5C512A8E95F200F75338 /* Josefin_Sans */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		BDCB5C352A8E8C7000F75338 /* MyProfileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyProfileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDCB5C392A8E8C7000F75338 /* MyProfileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileUITests.swift; sourceTree = "<group>"; };
 		BDCB5C3B2A8E8C7000F75338 /* MyProfileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDCB5C4A2A8E923800F75338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BDCB5C512A8E95F200F75338 /* Josefin_Sans */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Josefin_Sans; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +97,9 @@
 		BDCB5C1D2A8E8C6F00F75338 /* MyProfile */ = {
 			isa = PBXGroup;
 			children = (
+				BDCB5C4A2A8E923800F75338 /* Info.plist */,
 				BDCB5C1E2A8E8C6F00F75338 /* MyProfileApp.swift */,
+				BDCB5C512A8E95F200F75338 /* Josefin_Sans */,
 				BDCB5C202A8E8C6F00F75338 /* ContentView.swift */,
 				BDCB5C222A8E8C7000F75338 /* Assets.xcassets */,
 				BDCB5C242A8E8C7000F75338 /* Preview Content */,
@@ -231,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDCB5C522A8E95F200F75338 /* Josefin_Sans in Resources */,
 				BDCB5C262A8E8C7000F75338 /* Preview Assets.xcassets in Resources */,
 				BDCB5C232A8E8C7000F75338 /* Assets.xcassets in Resources */,
 			);
@@ -419,6 +425,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MyProfile/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyProfile/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -447,6 +454,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MyProfile/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyProfile/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
